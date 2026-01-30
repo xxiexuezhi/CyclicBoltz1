@@ -47,6 +47,8 @@ After replace the model folder (containing cyclic offset) with orginal model fol
 
 #### Design 
 python mcmc_design_pipeline.py $yaml_file
+
+
 $yaml_file is the sequence file with target protein seqeunces 
  
 
