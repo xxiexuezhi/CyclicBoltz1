@@ -41,8 +41,16 @@ Make sure:
 - You can successfully run ProteinMPNN scripts independently
 
 ---
+### 3. Run the Code
+####Predictions 
+After replace the model folder (containing cyclic offset) with orginal model folder in Boltz, run "Boltz predict input_path --use_msa_server". this should generate cyclic peptide instead of linnear ones.
 
-### 3. Clone This Repository
+####Design 
+python mcmc_design_pipeline.py $yaml_file
+$yaml_file is the sequence file with target protein seqeunces 
+ 
+
+### 4. Clone This Repository
 
 ```bash
 git clone https://github.com/xxiexuezhi/CyclicBoltz1.git
