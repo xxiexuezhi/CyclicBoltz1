@@ -3,7 +3,7 @@
 CyclicBoltz1 is a cyclic peptide structure prediction and design pipeline built **on top of Boltz-1**.  
 This repository provides scripts and configurations for running cyclic peptide predictions using the Boltz framework, with optional integration of ProteinMPNN for sequence-related components.
 
-> ⚠️ **Important**: This repository is **based on Boltz-1**.  
+> This repository is **based on Boltz-1**.  
 > It assumes you already have a working Boltz-1 installation and environment.
 
 ---
