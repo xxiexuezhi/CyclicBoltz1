@@ -42,10 +42,10 @@ Make sure:
 
 ---
 ### 3. Run the Code
-####Predictions 
+#### Predictions 
 After replace the model folder (containing cyclic offset) with orginal model folder in Boltz, run "Boltz predict input_path --use_msa_server". this should generate cyclic peptide instead of linnear ones.
 
-####Design 
+#### Design 
 python mcmc_design_pipeline.py $yaml_file
 $yaml_file is the sequence file with target protein seqeunces 
  
